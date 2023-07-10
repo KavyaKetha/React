@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.user-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.user-card.magical {
+  border: 4px solid #ff9800;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.magic-text {
+  margin-top: 1rem;
+  color: #ff9800;
+}
+
+.magic-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.magic-button:hover {
+  background-color: #666;
+}
+
+.wand-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wand-button:hover {
+  background-color: #666;
+}
+
+.wand {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wand h2 {
+  color: #333;
+}
+
+.wand p {
+  margin-top: 0.5rem;
+  color: #666;
+}

@@ -1,0 +1,35 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+input {
+  margin-right: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.loading {
+  font-style: italic;
+}
